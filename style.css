@@ -1,0 +1,251 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-background-color: hsl(250, 11%, 11%);
+    --accent-color: hsl(41, 100%, 49%);
+    --primary-text-color: hsl(0, 0%, 100%);
+    --border-color: #222028;
+    --textarea-background-color: hsl(255, 11%, 14%);
+    --secondary-text-color: hsl(58, 19%, 74%);
+    --secondary-background-color: hsl(255, 11%, 14%);
+  }
+
+
+  body{
+  
+    background-color: var(--primary-background-color);   
+       height: 80vh;
+    overflow-x: hidden; 
+    transition: 0.3 ease-in;
+}
+
+
+/*  HEADER SECTION */
+.abt_main_class{
+       width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     background-image: url("/Background-img\ qa.jpg") ; 
+     height: 30vh; 
+    background-repeat: no-repeat;
+    background-position: center;
+  object-fit: cover;
+  /* border: 5px solid red;  */
+  margin-top: 7%;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.about_home_link{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1rem;
+    color: blue;
+    color: hsl(0, 0%, 100%);
+     /* width: 100%; 
+    height: 100px;   */
+    /* border-top: 5px solid yellow; */
+
+}
+a{
+    color: hsl(41, 100%, 49%);
+   
+}
+a:hover{
+    color:hsl(0, 0%, 100%) ;
+
+    text-decoration: none;
+}
+
+.abt_header{
+
+    color:  hsl(41, 100%, 49%);
+            /* color:hsl(0, 0%, 100%) ;  */
+          font-weight: 400;
+          font-size: 30px; 
+           line-height: 130%; 
+           /* border-top: 5px solid yellow; */
+      }
+
+      /*  ABOUT TIIDE FLIX SECTION */
+
+      .abt-details{
+          display: flex;
+           flex-direction: column;  
+            justify-content: center;  
+           /* align-items: center;  */
+          width: 100%;
+          font-size: 16px;
+            line-height: 26px;
+            background-color: var(--primary-background-color);
+            color: var(--primary-text-color);
+             /* border: 5px solid var(--border-color); */
+             padding-right: 200px; 
+             padding-left: 200px;
+             padding-top: 50px;
+             gap: 30px; 
+             }
+
+            
+
+     .best-place{
+         padding-bottom: 20px;
+         padding-left: -10px;
+         font-weight: 400;
+      font-size: 30px;
+      line-height: 130%;
+      margin-bottom: 20px;
+
+     }
+
+    
+     .abt_boxes{
+         display: flex;
+         color: var(--primary-text-color);
+         background-color: var(--primary-background-color);
+
+         }
+
+     .abt_box1{
+         display: flex;
+         flex-direction: column;
+          justify-content: center; 
+          flex-wrap: wrap;
+          
+       width: 400px;
+         height: 200px;
+     }   
+.img-display{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}
+ svg.bi.bi-display{
+     color: var(--accent-color);
+     /* padding-left: 15px; */
+ }
+ .about-paragraph{
+     padding-left: 20px;
+     padding-right: 20px;
+     padding-top: 25px;
+
+ }
+ svg.bi.bi-film{
+    color: var(--accent-color);
+    /* padding-left: 15px; */
+}
+svg.bi.bi-trophy-fill{
+    color: var(--accent-color);
+    /* padding-left: 15px;   */
+}
+
+svg.bi.bi-bell-fill{
+    color: var(--accent-color);
+    /* padding-left: 15px; */
+}
+
+
+svg.bi.bi-globe2{
+    color: var(--accent-color);
+        }
+
+/* HOW IT WORKS SECTION */
+
+.abhow-it-works-section{
+    display: flex;
+     flex-direction: column;    
+      justify-content: center;  
+     /* align-items: center;  */
+    width: 100%;
+    font-size: 16px;
+      line-height: 26px;
+      background-color: var(--primary-background-color);
+      background-color: var(--primary-background-color);
+      color: var(--primary-text-color);
+       /* border: 0px solid var(--border-color); */
+       padding-right: 200px; 
+       padding-left: 200px;
+       padding-top: 100px;
+       gap: 50px; 
+       
+
+       
+       }
+
+       .abt-howitworks-boxes{
+        display: flex;
+        color: var(--primary-text-color);
+        background-color: var(--primary-background-color);
+         
+        
+    }
+
+.abt-herder-content{
+     display: flex;
+           flex-direction: column;
+           justify-content: flex-start;
+           gap: 10px;
+       }
+
+       h1{
+    font-size: 40px;
+}
+.abt_how_box{
+    display: flex;
+    flex-direction: column;
+     justify-content: center; 
+     flex-wrap: wrap;
+     
+  width: 400px;
+    height: 200px;
+}   
+
+
+
+.abt-number{
+    color: var(--accent-color);
+}
+
+
+
+
+/* ABOUT PARTNERS */
+
+.abt-partners-section{
+
+    display: flex;
+    flex-direction: column;    
+     justify-content: center;  
+    /* align-items: center;  */
+   width: 100%;
+   font-size: 16px;
+     line-height: 26px;
+     background-color: var(--primary-background-color);
+     background-color: var(--primary-background-color);
+     color: var(--primary-text-color);
+      /* border: 0px solid var(--border-color); */
+      padding-right: 200px; 
+      padding-left: 200px;
+      padding-top: 100px;
+      gap: 40px;  
+
+}
+img{
+    height: 50px;
+    width: 200px;
+}
+.abt-partners-logo{
+    display: flex;
+}
+
+
+
+
+
